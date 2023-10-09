@@ -1,0 +1,21 @@
+
+.links {
+    text-decoration: none;
+    color: black;
+    padding:0 2rem ;
+}
+.navbar__items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar__container {
+
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__items__cnt{
+    justify-content: space-around;
+}
