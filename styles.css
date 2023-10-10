@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -120,11 +121,11 @@
     padding-left: 20%;
 }
 .sidebar a {
-    padding: 1rem 2rem 6rem 3rem;
+    padding: 1rem 2rem 4rem 3rem;
     text-decoration: none;
     font-size: 1rem;
     color: #000000;
-    display: block;
+    display: grid;
     transition: all 1s ease;
 }
 .sidebar a:hover{
@@ -137,8 +138,35 @@
     align-items: center;
 }
 .home__logo {
-    height: 50%;
-    width: 50%;
-    padding-left: 0.1rem;
+    height: 90%;
+    width: 90%;
+    padding-left: 0.5rem;
     display: block;
+}
+.arch__logo {
+    height: 80%;
+    width: 80%;
+    display: block;
+    padding-left: .9rem;
+}
+.fav__logo {
+    height: 80%;
+    width: 80%;
+    display: block;
+    padding-left: 1rem;
+}
+.create__logo {
+    height: 70%;
+    width: 70%;
+    display: block;
+    padding-left: 0.7rem;
+}
+.settings__logo {
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin-left: 0.5rem;   
+}
+.archives {
+  padding-right: 7rem;
 }
