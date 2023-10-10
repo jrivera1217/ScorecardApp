@@ -132,14 +132,19 @@
     transition: all 1s ease;
     color: #cdcdd3;
 }
+.sidebar a:hover img {
+  filter: invert(100%); 
+  transition: filter 1s ease; 
+}
+
 .home{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .home__logo {
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
     padding-left: 0.5rem;
     display: block;
 }
@@ -156,8 +161,8 @@
     padding-left: 1rem;
 }
 .create__logo {
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
     display: block;
     padding-left: 0.7rem;
 }
@@ -169,4 +174,7 @@
 }
 .archives {
   padding-right: 7rem;
+}
+.create {
+  margin-left: 0.5rem;
 }
