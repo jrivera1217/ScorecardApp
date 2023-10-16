@@ -75,8 +75,12 @@ nav.open .sidebar {
     border-radius: 0.5rem;
     transition: all 0.6s ease;
 }
-.bottom-content .list:hover {
-  background-color: red;
+.bottom-content .list .logout:hover {
+  background-color: rgb(194, 0, 0);
+  transition: all 0.6s ease;
+}
+.bottom-content .list .settings:hover{
+  background-color: #04438b;
   transition: all 0.6s ease;
 }
 
@@ -101,14 +105,28 @@ nav.open .sidebar {
   color: #fff;
   transition: all 0.3s ease;
 }
-.bottom-content:hover .icon .link {
-    color: #fff;
-    transition: all 0.3s ease;
+
+.bottom-content .settings:hover .icon {
+  color: #fff;
+  transition: all 0.3s ease; 
+}
+.bottom-content .settings:hover .link{
+  color: #fff;
+  transition: all 0.3s ease; 
+}
+.bottom-content .logout:hover .icon {
+  color: #fff;
+  transition: all 0.3s ease; 
+}
+  
+
+.bottom-content .logout:hover .link{
+  color: #fff;
+  transition: all 0.3s ease; 
 }
 
-.bottom-content:hover .icon .link{
-    color: #fff;
-    transition: all 0.3s ease; 
+.logo .logo-name {
+  color: #04438b;
 }
 .sidebar .logo-name {
   color: #04438b;
@@ -128,4 +146,82 @@ nav.open ~ .overlay {
   opacity: 1;
   left: 26rem;
   pointer-events: auto;
+}
+nav .logo .image1 {
+  height: 12%;
+  width: 12%;
+  padding-left: 1rem;
+}
+.create-section {
+  margin-top: 5rem;
+  background-color: #c7cfd6;
+  padding: 6rem 10rem;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Added this line to space the items */
+}
+
+.create-section .blank-page {
+  list-style: none;
+}
+.create-item {
+  justify-content: center;
+  align-items: center;
+
+}
+
+.create-item .blank-page-label{
+  margin-top: 1rem;
+}
+.lists-create{
+  display: flex;
+  
+}
+.create-section .blank-page-item {
+  padding: 5rem 4rem; 
+  background-color: #ffffff;
+}
+.create-section .create-item{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.create-item{
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+}
+.create-item .more-label{
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.create-item .more-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.create-section .templates{
+  cursor: pointer;
+}
+.create-section .templates:hover{
+background-color: #9cafc4;
+border-radius: 5px;
+transition: all 0.5s ease;
+}
+.more-btn {
+  padding: 1rem 1rem;
+  height: 25%;
+}
+.more-btn:hover{
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.lists-create .more-btn{
+  margin-top: 5.5rem;
 }
