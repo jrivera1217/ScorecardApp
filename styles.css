@@ -225,3 +225,46 @@ transition: all 0.5s ease;
 .lists-create .more-btn{
   margin-top: 5.5rem;
 }
+.history-content, .archives-content{
+  justify-content: center;
+  align-items: center;
+  background-color: #d8e9fd;
+  height: 100%;
+  width: 75%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.col-1-contents, .archives-items{
+  display: flex;
+  height: 4rem;
+  border: 1px;
+  border-color: #9f9f9f;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  justify-content: space-around;
+  transition: all 0.4s ease;
+}
+.col-1-contents:hover,
+.archives-items:hover {
+  background-color: #afbecf;
+  transition: all 0.4s ease;
+}
+.history-top, .archives-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.col-1 {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+.favs-top {
+  margin-top: 8rem;
+}
